@@ -62,21 +62,21 @@ Motor imagery-based Brain-computer interfaces (MI-BCI) systems convert user inte
   </tr>
   <tr>
     <td> <b> Proposed Model (linear-prob) </b> </td>
-    <td>64.87±5.15</td>
-    <td>64.78±5.20</td>
+    <td>64.91±5.12</td>
+    <td>64.82±5.18</td>
     <td>0.30±0.10</td>
-    <td>32.92±1.58</td>
-    <td>32.69±1.35</td>
-    <td>0.11±0.02</td>
+    <td>34.58±4.53</td>
+    <td>34.38±4.61</td>
+    <td>0.13±0.06</td>
   </tr>
   <tr>
     <td> <b> Proposed Model (fine-tuning) </b> </td>
-    <td>81.56±4.70</td>
-    <td>81.54±4.71</td>
-    <td>0.63±0.09</td>
-    <td>42.36±2.98<br></td>
-    <td>41.96±3.28<br></td>
-    <td>0.23±0.04</td>
+    <td><b>82.47±4.04</b></td>
+    <td><b>82.45±4.05</b></td>
+    <td><b>0.65±0.08</b></td>
+    <td><b>43.19±3.92</b></td>
+    <td><b>42.79±4.13</b></td>
+    <td><b>0.24±0.05</b></td>
   </tr>
 </tbody></table>
 
