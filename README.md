@@ -87,7 +87,7 @@ Motor imagery-based brain–computer interface (MI-BCI) systems convert user int
 
 #### UMAP visualization & Confusion Matrix
 
-<p align="center"> <img src="https://github.com/dlcjfgmlnasa/Barlow_Twins_EEG/blob/main/figure/figure2.png" alt="image" width="80%" height="auto"> </p>
+<p align="center"> <img src="https://github.com/dlcjfgmlnasa/Barlow_Twins_EEG/blob/main/figure/figure2.png" alt="image" width="90%" height="auto"> </p>
 
 
 ## License and Citation 📰
