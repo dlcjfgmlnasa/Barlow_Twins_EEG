@@ -4,7 +4,12 @@ A Novel Negative-sample-free Contrastive Self-Supervised Learning for EEG-Based 
 >**In-Nea Wang, Cheol-Hui Lee, Hakseung Kim, and Dong-Joo Kim**
 
 ## Introduction 🔥
-Motor imagery-based Brain-computer interfaces (MI-BCI) systems convert user intentions into computer commands, which are particularly useful in providing communication means and aiding rehabilitation for individuals with motor disabilities. Conventionally, MI classification research has focused on supervised learning to extract features from complex brain waves. However, the primary challenge of supervised learning approaches is in acquiring large volumes of reliably labeled high-quality data. Dependence on labeled data is restricted by specific experimental paradigms and protocols, making it challenging to ensure generalized high performance of the supervised learning-based models. To address these challenges, this study proposes a contrastive self-supervised learning (SSL) method for MI classification that does not require negative samples. Additionally, a backbone network called MultiResolutionCNN has been introduced, designed to consider various temporal and spatial scales of raw electroencephalogram (EEG) signals. Utilizing Barlow Twins loss-based contrastive SSL, features are effectively extracted from EEG signals without using negative samples and labels. MI classification was performed on two datasets not used in training: an in-domain dataset with two classes and an out-domain dataset with four classes, achieving accuracies of 81.56% and 42.36%, respectively. The results demonstrated superior performance compared to supervised learning methods. An ablation study compared MultiResolutionCNN with the baseline backbone networks and demonstrated excellent performance, especially when fine-tuning was applied. Additionally, the performance variations were observed with changes in hyperparameters. The maximum differences in accuracy for lambda, learning rate, and batch size were 1.11%, 3.58%, and 3.22%, respectively, indicating robust generalization of performance.
+Motor imagery-based brain–computer interface (MI-BCI) systems convert user intentions into computer commands, aiding the communication and rehabilitation of individuals with motor disabilities. Traditional MI classification relies on supervised learning; however, it faces challenges in acquiring large volumes of reliably labeled data and ensuring generalized high performance owing to specific experimental paradigms. To address these issues, this study proposes a contrastive self-supervised learning (SSL) method that does not require negative samples. A MultiResolutionCNN backbone, designed to capture temporal and spatial electroencephalogram (EEG) features, is introduced. By using Barlow Twins loss-based contrastive SSL, features are effectively extracted from EEG signals without labels. MI classification was performed with data from two datasets that were not used for pretraining: an in-domain dataset with two classes and out-domain dataset with four classes. The proposed framework outperformed conventional supervised learning, achieving accuracies of 82.47% and 43.19% on the in-domain and out-domain datasets, respectively. Performance variations were observed in response to variations in the values of key hyperparameters during training. The maximum differences in lambda, learning rate, and batch size were 0.93%, 3.28%, and 3.38%, respectively, demonstrating robust generalization. This study facilitates the development and application of more practical and robust MI-BCI systems.
+
+## Model Architecture
+<p align="center"> <img src="https://github.com/dlcjfgmlnasa/Barlow_Twins_EEG/blob/main/figure/figure1.png" alt="image" width="80%" height="auto"> </p>
+
+(A) Illustration of the proposed contrastive SSL using Barlow Twins (B) Architecture of the proposed model. The purple and navy regions represent the backbone and classifier networks of the proposed model, respectively
 
 ## Main Result 🥇
 #### Comparison with Other Supervised Learning Approaches
@@ -80,8 +85,9 @@ Motor imagery-based Brain-computer interfaces (MI-BCI) systems convert user inte
   </tr>
 </tbody></table>
 
-#### Semi-Supervised Learning
 #### UMAP visualization & Confusion Matrix
+
+<p align="center"> <img src="https://github.com/dlcjfgmlnasa/Barlow_Twins_EEG/blob/main/figure/figure2.png" alt="image" width="80%" height="auto"> </p>
 
 
 ## License and Citation 📰
