@@ -89,7 +89,7 @@ Motor imagery-based brain–computer interface (MI-BCI) systems convert user int
 
 <p align="center"> <img src="https://github.com/dlcjfgmlnasa/Barlow_Twins_EEG/blob/main/figure/figure2.png" alt="image" width="90%" height="auto"> </p>
 
-(a) UMAP visualizations demonstrating representation vector separability. (b) Confusion matrices for MI classification with linear probing and fine-tuning
+(A) UMAP visualizations demonstrating representation vector separability. (B) Confusion matrices for MI classification with linear probing and fine-tuning
 
 ## License and Citation 📰
 The software is licensed under the Apache License 2.0. Please cite the following paper if you have used this code:
