@@ -1,5 +1,5 @@
 # Barlow_Twins_EEG
-A Novel Negative-sample-free Contrastive Self-Supervised Learning for EEG-Based Motor Imagery Classification
+[IEEE Access] A Novel Negative-sample-free Contrastive Self-Supervised Learning for EEG-Based Motor Imagery Classification 
 
 >**In-Nea Wang, Cheol-Hui Lee, Hakseung Kim, and Dong-Joo Kim**
 
@@ -93,4 +93,12 @@ Motor imagery-based brain–computer interface (MI-BCI) systems convert user int
 
 ## License and Citation 📰
 The software is licensed under the Apache License 2.0. Please cite the following paper if you have used this code:
-
+```
+@article{wang2024negative,
+  title={Negative-Sample-Free Contrastive Self-Supervised Learning for Electroencephalogram-Based Motor Imagery Classification},
+  author={Wang, In-Nea and Lee, Cheol-Hui and Kim, Hakseung and Kim, Dong-Joo},
+  journal={IEEE Access},
+  year={2024},
+  publisher={IEEE}
+}
+```
