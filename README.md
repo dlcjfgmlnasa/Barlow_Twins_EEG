@@ -3,6 +3,8 @@
 
 >**In-Nea Wang, Cheol-Hui Lee, Hakseung Kim, and Dong-Joo Kim**
 
+[[`Paper`](https://ieeexplore.ieee.org/document/10680037)] [[`BibTeX`](#-License-and-Citation)] 
+
 ## Introduction 🔥
 Motor imagery-based brain–computer interface (MI-BCI) systems convert user intentions into computer commands, aiding the communication and rehabilitation of individuals with motor disabilities. Traditional MI classification relies on supervised learning; however, it faces challenges in acquiring large volumes of reliably labeled data and ensuring generalized high performance owing to specific experimental paradigms. To address these issues, this study proposes a contrastive self-supervised learning (SSL) method that does not require negative samples. A MultiResolutionCNN backbone, designed to capture temporal and spatial electroencephalogram (EEG) features, is introduced. By using Barlow Twins loss-based contrastive SSL, features are effectively extracted from EEG signals without labels. MI classification was performed with data from two datasets that were not used for pretraining: an in-domain dataset with two classes and out-domain dataset with four classes. The proposed framework outperformed conventional supervised learning, achieving accuracies of 82.47% and 43.19% on the in-domain and out-domain datasets, respectively. Performance variations were observed in response to variations in the values of key hyperparameters during training. The maximum differences in lambda, learning rate, and batch size were 0.93%, 3.28%, and 3.38%, respectively, demonstrating robust generalization. This study facilitates the development and application of more practical and robust MI-BCI systems.
 
